@@ -1,0 +1,50 @@
+ body{
+    margin: 0px;
+    padding: 0px;
+    background: url(/women.jpg);
+    
+
+    
+    
+} 
+.left{
+    position: absolute;
+    display: inline-block;
+    left: 34px;
+    top:  20px;
+    border: red solid;
+
+}
+
+.right{
+    position: absolute;
+    display: inline-block;
+    border: red solid 2px;
+    top: 20px;
+    right: 34px;
+
+}
+.middle{
+    margin: 20px auto;
+    position: display;
+    display: block;
+    border: red solid 2px;
+    width: 33%;
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        font-size: 16px;
+        display: inline-block;
+         color: white;
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 34px 20px;
+    }
+    .navbar li a:hover, .navbar li a:active{
+        text-decoration: underline;
+        
+    }
